@@ -8,12 +8,10 @@
 
 ### 2) Self-supervised pre-training:
 
-```
-a one-line code block
-```
+* The following command is used for contrastive pre-training
 
- '''python
+ ```
  python main.py --net GestureNet --dataset HMOG_ID --train_phase True --input_planes 9 --epoch 1000
  
- '''
+ ```
  
