@@ -17,8 +17,22 @@
  
  ### 3) Downstream evaluation:
  
+ * User identification:
+ 
  ```
  python test.py --net GestureNet --dataset HMOG_ID --input_planes 9 --epoch 500 --num_classes = 2
  ```
+ * User verification :
  
+ ```
+ python test.py --net GestureNet --dataset HMOG_VER --input_planes 9 --epoch 500 --num_classes = 2
+ ```
+ 
+ ### 4) Computational complexity:
+ 
+ ```
+ python complexity.py --net GestureNet --repetitions 500
+ ```
+ 
+ |
  
