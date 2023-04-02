@@ -9,5 +9,8 @@
 ### 2) Self-supervised pre-training:
 * Write the following command for contrastive pre-training:
 
- '''python main.py --net GestureNet --dataset HMOG_ID --train_phase True --input_planes 9 --epoch 1000'''
+ '''
+ python main.py --net GestureNet --dataset HMOG_ID --train_phase True --input_planes 9 --epoch 1000
+ 
+ '''
  
