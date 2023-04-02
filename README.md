@@ -34,5 +34,3 @@
  python complexity.py --net GestureNet --repetitions 500
  ```
  
- |
- 
