@@ -15,3 +15,10 @@
  
  ```
  
+ ### 3) Downstream evaluation:
+ 
+ ```
+ python test.py --net GestureNet --dataset HMOG_ID --input_planes 9 --epoch 500 --num_classes = 2
+ ```
+ 
+ 
