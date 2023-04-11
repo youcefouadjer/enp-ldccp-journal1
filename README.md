@@ -1,5 +1,5 @@
 # This is the repository containing the implementation of the paper: 
-## Towards Self-supervised Learning of Human Identity from Gesture Patterns in Mobile Devices
+## Toward Self-supervised Learning of Human Identity from Gesture Patterns in Mobile Devices
 
 ### 1) Requirements:
 * Python >= 2.9
