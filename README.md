@@ -1,6 +1,5 @@
 # This is the repository containing the implementation of the paper: 
-## Toward Self-supervised Learning of Human Identity from Gesture Patterns in Mobile Devices
-
+## Continuous Authentication Using Self-Supervised Learning and Gesture Patterns
 ### 1) Requirements:
 * Python >= 2.9
 * Pytorch >=1.13
