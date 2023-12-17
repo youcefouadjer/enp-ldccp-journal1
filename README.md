@@ -16,7 +16,7 @@
  ```
 ### 3) User identification:
  ```
- python main.py --net GestureNet --dataset HMOG_ID --train_phase True --input_planes 9 --epoch 500
+ python test.py --net GestureNet --dataset HMOG_ID --train_phase True --input_planes 9 --epoch 500
  ```
 ### 4) Computational complexity:
  
