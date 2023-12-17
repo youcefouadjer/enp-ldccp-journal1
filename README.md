@@ -4,32 +4,32 @@
 * Python >= 2.9
 * Pytorch >=1.13
 * ptflops >= 0.6.9
-
-### 2) Self-supervised pre-training:
-
-* The following command is used for contrastive pre-training
-
+  
+### 1) Pre-training:
  ```
  python main.py --net GestureNet --dataset HMOG_ID --train_phase True --input_planes 9 --epoch 1000
- 
  ```
- 
- ### 3) Downstream evaluation:
- 
- * User identification:
- 
- ```
- python test.py --net GestureNet --dataset HMOG_ID --input_planes 9 --epoch 500 --num_classes = 2
- ```
- * User verification :
- 
+### 2) User verification:
+
  ```
  python test.py --net GestureNet --dataset HMOG_VER --input_planes 9 --epoch 500 --num_classes = 2
  ```
- 
- ### 4) Computational complexity:
+### 3) User identification:
+ ```
+ python main.py --net GestureNet --dataset HMOG_ID --train_phase True --input_planes 9 --epoch 500
+ ```
+### 4) Computational complexity:
  
  ```
  python complexity.py --net GestureNet --repetitions 500
  ```
- 
+### 5) Analysis of standard deviation of gaussian noise:
+
+```
+null
+```
+### 6) Fine-tuning on small annotated dataset:
+```
+null
+```
+
