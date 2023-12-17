@@ -30,6 +30,6 @@ python roc_curves_std.py
 ```
 ### 6) Fine-tuning on small annotated dataset:
 ```
-null
+python roc_curves_semi_supervised.py
 ```
 
