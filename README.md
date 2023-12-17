@@ -26,7 +26,7 @@
 ### 5) Analysis of standard deviation of gaussian noise:
 
 ```
-python roc_curves_std
+python roc_curves_std.py
 ```
 ### 6) Fine-tuning on small annotated dataset:
 ```
